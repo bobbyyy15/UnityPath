@@ -1,12 +1,41 @@
 # **UNITYPATH: Volunteer Matching System**
 
-![UnityPath](https://github.com/user-attachments/assets/92426150-ecaf-4041-b648-cacc6d714d46)
+![image](https://github.com/user-attachments/assets/1c7cbf45-bc55-4022-b688-0615844d2f82)
 
 
 ## **📚 Title and Purpose**
 **UNITYPATH** is a platform designed to connect volunteers with organizations working toward social good. The system facilitates the matching of volunteers to opportunities based on their skills, availability, and interests, allowing for more efficient collaboration and fostering unity in the community.
 
 ---
+![Screenshot 2024-12-12 225528](https://github.com/user-attachments/assets/11f19d23-120d-4783-8670-6766e38e4982)
+
+# Table of Contents
+- [Project Title and Purpose](#project-title-and-purpose)
+- [Objective and Key Features](#objective-and-key-features)
+- [Core Classes](#core-classes)
+  - [Opportunity](#opportunity)
+  - [Organization](#organization)
+  - [Volunteer](#volunteer)
+  - [User](#user)
+  - [TestConnection](#testconnection)
+- [Core Principles of OOP](#core-principles-of-oop)
+  - [Encapsulation](#encapsulation)
+  - [Inheritance](#inheritance)
+  - [Polymorphism](#polymorphism)
+  - [Abstraction](#abstraction)
+- [SDG Alignment](#sdg-alignment)
+- [Benefits](#benefits)
+- [How to Use](#how-to-use)
+- [Feature Enhancements](#feature-enhancements)
+- [Setup Instructions](#setup-instructions)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Tech Used](#tech-used)
+- [About the Developer](#about-the-developer)
+
+---
+![image](https://github.com/user-attachments/assets/234bfb6d-7142-4076-ae49-2129c6258fbc)
+
 
 ## **🎯 Objective**
 The objective of **UNITYPATH** is to create a seamless volunteer matching platform that:
@@ -15,6 +44,8 @@ The objective of **UNITYPATH** is to create a seamless volunteer matching platfo
 - Promotes social change by supporting humanitarian, environmental, and community-building initiatives.
 
 ---
+
+![image](https://github.com/user-attachments/assets/42a7cbac-2bc7-40ec-80ff-2a86500c8982)
 
 ## **🛠 Key Features**
 - **Volunteer Registration & Login:** Volunteers can register and create profiles with their skills and interests, allowing for easy application to suitable opportunities.
@@ -26,6 +57,8 @@ The objective of **UNITYPATH** is to create a seamless volunteer matching platfo
 
 ---
 
+![image](https://github.com/user-attachments/assets/1a1ef512-11c7-4391-8a1c-d8ca037a2619)
+
 ## **📦 Core Classes**
 - **`Volunteer`:** This class represents a volunteer with attributes like `id`, `name`, `password`, and `skills`. It extends the abstract class `User` and provides the `viewOpportunities()` method for displaying available opportunities.
 - **`Organization`:** Represents an organization that can post volunteer opportunities. Includes methods for managing organizations and interacting with the volunteer database.
@@ -35,6 +68,8 @@ The objective of **UNITYPATH** is to create a seamless volunteer matching platfo
 - **`DesignUtils`:** A utility class for formatting output, clearing the screen, and printing styled headers and messages, helping improve user interaction.
 
 ---
+
+![image](https://github.com/user-attachments/assets/14751afd-4857-41d4-a5d9-152f2b3ecbbc)
 
 ## **🧑‍💻 Core Principles of OOP**
 The system follows key **Object-Oriented Programming** principles, such as:
@@ -54,6 +89,9 @@ The system follows key **Object-Oriented Programming** principles, such as:
 
 ---
 
+![image](https://github.com/user-attachments/assets/a7339ca8-0626-4189-a55b-388772881282)
+
+
 ## **🌍 SDG Alignment**
 **UNITYPATH** aligns with the following **Sustainable Development Goals (SDGs):**
 
@@ -67,6 +105,8 @@ The system follows key **Object-Oriented Programming** principles, such as:
    The platform serves as a catalyst for partnerships by linking volunteers to organizations, fostering cooperation to achieve common goals.
 
 ---
+
+![image](https://github.com/user-attachments/assets/088ad1bf-da45-40fe-b2f5-d3487eb268de)
 
 ## **🌟 Benefits**
 ### **For Volunteers:**
@@ -84,6 +124,9 @@ The system follows key **Object-Oriented Programming** principles, such as:
 
 ---
 
+![image](https://github.com/user-attachments/assets/85c7d9ac-3120-4e59-8bda-7b571e623656)
+
+
 ## **💻 How to Use**
 1. **Clone the repository:**
    - Download or clone this repository to your local machine.
@@ -97,8 +140,27 @@ The system follows key **Object-Oriented Programming** principles, such as:
 
 4. **Interact with the menu:**
    - Follow the prompts in the terminal to create and manage organizations, sign up as a volunteer, and apply for opportunities.
+  
+5. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/volunteer-matching-system.git
+
+6. **Install Dependencies:**
+
+   ```bash
+   mvn install
+
+7. **Run the Application:**
+
+    ```bash
+    mvn exec:java
+
+8. **Follow The Prompts**
 
 ---
+
+![image](https://github.com/user-attachments/assets/86e26e2a-e94f-479c-b359-d532e752924e)
 
 ## **⚙ Feature Enhancements**
 
@@ -116,13 +178,27 @@ The system follows key **Object-Oriented Programming** principles, such as:
 
 - **Mobile App Version:**  
    Develop a mobile version of the platform for increased accessibility and reach.
+---
+![image](https://github.com/user-attachments/assets/1e9b2e47-08c1-4b27-bc81-8629d92b8c67)
+
+## **Tech Used**
+
+- **Java:**
+  The core programming language for the project.
+  
+- **MySQL:**
+   A relational database management system for storing user and opportunity data.
+
+- **JDBC (Java Database Connectivity:**
+   For connecting to the MySQL database.
 
 ---
+![image](https://github.com/user-attachments/assets/5db1da3d-903a-4d0d-9399-65a2afb9be04)
 
-## **💡 Contributing**
-Feel free to contribute to **UNITYPATH**! If you have any ideas for improvements, fixes, or new features, please open an issue or submit a pull request.
+## **About the Devoloper**
+  This project was developed by an aspiring software engineer focused on creating solutions that benefit communities. The goal is to make volunteer matching and opportunity management simple and efficient for all users.
 
----
-
-## **📜 License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- *Name*: [Ken Patrick Joshua N, Gaa]
+- (https://github.com/bobbyyy15)
+- *Github*: [github.com/bobbyyy15](https://github.com/bobbyyy15)
+- *Email*: 23-08002@g.bastate-u.edu.ph
