@@ -192,7 +192,17 @@ The system follows key **Object-Oriented Programming** principles, such as:
 ![image](https://github.com/user-attachments/assets/5db1da3d-903a-4d0d-9399-65a2afb9be04)
 
 ## **About the Devoloper**
-  This project was developed by an aspiring software engineer focused on creating solutions that benefit communities. The goal is to make volunteer matching and opportunity management simple and efficient for all users.
+ Hey there! I’m Ken Patrick Joshua N. Gaa, the sole developer behind UNITYPATH. UNITYPATH was created as part of my Object-Oriented Programming (OOP) final project, where I was tasked with building a console application that follows OOP principles and aligns with Sustainable Development Goals (SDGs). This project has been both a rewarding and challenging experience, as it not only helped me with my academic goals but also has the potential to make a positive impact on the community.
+
+I designed UNITYPATH to facilitate volunteer matching, making it easier for individuals to connect with organizations in need of help. Although the system currently contains the basic features I envisioned, I’m excited about continuing to develop and expand it. Reaching this point in the project reflects my commitment to seeing it through to completion.
+
+Developing UNITYPATH has taught me many valuable lessons, from managing databases to working through complex logic. Every step has been a learning experience, and at times, it has tested my patience. But through it all, it has helped me refine my skills and think critically about creating a platform that truly serves its users.
+
+Thank you for taking the time to explore my project! This is more than just an academic requirement—it represents a step forward in my journey as a developer, and I look forward to building upon it. I’m excited to see where my growth in software development and community service will take me in the future.
+
+Best regards,
+Ken Patrick Joshua N. Gaa
+---
 
 - *Name*: [Ken Patrick Joshua N, Gaa]
 - *Github*: [github.com/bobbyyy15](https://github.com/bobbyyy15)
