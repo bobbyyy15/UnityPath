@@ -50,8 +50,7 @@ The objective of **UNITYPATH** is to create a seamless volunteer matching platfo
 ## **🛠 Key Features**
 - **Volunteer Registration & Login:** Volunteers can register and create profiles with their skills and interests, allowing for easy application to suitable opportunities.
 - **Organization Registration & Login:** Organizations can post opportunities, review applications, and manage volunteer participation.
-- **Opportunity Management:** Volunteers can view, apply, and track opportunities based on their skills and availability.
-- **Search & Filter Functionality:** Volunteers can search for opportunities by location, skills, and other criteria to find the best fit.
+- **Opportunity Management:** Volunteers can view, apply, and track opportunities based on their availability.
 - **Clear, User-Friendly Interface:** The system is designed with an easy-to-navigate UI that simplifies the interaction between volunteers and organizations.
 - **Exit Handling:** The system includes clear exit options that allow users to cancel actions easily.
 
@@ -199,6 +198,5 @@ The system follows key **Object-Oriented Programming** principles, such as:
   This project was developed by an aspiring software engineer focused on creating solutions that benefit communities. The goal is to make volunteer matching and opportunity management simple and efficient for all users.
 
 - *Name*: [Ken Patrick Joshua N, Gaa]
-- (https://github.com/bobbyyy15)
 - *Github*: [github.com/bobbyyy15](https://github.com/bobbyyy15)
 - *Email*: 23-08002@g.bastate-u.edu.ph
