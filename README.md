@@ -97,9 +97,6 @@ The system follows key **Object-Oriented Programming** principles, such as:
 - **SDG 10: Reduced Inequality**  
    By connecting volunteers to community organizations, the platform helps in reducing inequality by fostering inclusion and support for marginalized groups.
 
-- **SDG 16: Peace, Justice, and Strong Institutions**  
-   The platform contributes to strengthening institutions by promoting collaboration between volunteers and organizations to address social challenges.
-
 - **SDG 17: Partnerships for the Goals**  
    The platform serves as a catalyst for partnerships by linking volunteers to organizations, fostering cooperation to achieve common goals.
 
