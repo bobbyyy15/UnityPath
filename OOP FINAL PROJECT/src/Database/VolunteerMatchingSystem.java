@@ -47,7 +47,13 @@ public class VolunteerMatchingSystem {
             DesignUtils designUtils = new DesignUtils();
             designUtils.clearConsole();
 
-            // Display the main menu
+            System.out.println("===========================================================================");
+            System.out.println("|                       UNITYPATH                                       |");
+            System.out.println("|             Spreading Unity with Purpose!                             |");
+            System.out.println("===========================================================================");
+            System.out.println("| Welcome to UNITYPATH, where we aim to create a world of kindness!      |");
+            System.out.println("---------------------------------------------------------------------------");
+
             System.out.println("--- Volunteer Matching System ---");
             System.out.println("1. Register as Organization");
             System.out.println("2. Register as Volunteer");
@@ -73,7 +79,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Register as an Organization
     private void registerOrganization() {
         DesignUtils.printBoxHeader("Register as Organization");
 
@@ -96,7 +101,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Register as a Volunteer
     private void registerVolunteer() {
         DesignUtils.printBoxHeader("Register as Volunteer");
 
@@ -119,7 +123,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Login as an Organization
     private void loginAsOrganization() {
         DesignUtils.printBoxHeader("Logging in as Organization");
 
@@ -149,7 +152,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Login as a Volunteer
     private void loginAsVolunteer() {
         DesignUtils.printBoxHeader("Logging in as Volunteer");
 
@@ -179,7 +181,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Manage Organization Menu
     private void manageOrganization(String orgName) {
         while (true) {
             System.out.println("\n--- Organization Menu ---");
@@ -210,8 +211,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Manage Volunteer Menu
-    // Manage Volunteer Menu
     private void manageVolunteer(String volunteerName) {
         while (true) {
             System.out.println("\n--- Volunteer Menu ---");
@@ -320,7 +319,6 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // Add Opportunity with Schedule
     private void addOpportunity(String orgName) {
         DesignUtils.printBoxHeader("Add Opportunity");
 
@@ -353,11 +351,9 @@ public class VolunteerMatchingSystem {
         }
     }
 
-    // View Posted Opportunities for Organization
     private void viewPostedOpportunities(String volunteerName) {
         System.out.println("\n--- Posted Opportunities ---");
 
-        // Table Header
         System.out.printf("%-5s %-30s %-35s %-15s %-15s %-20s%n", "ID", "Title", "Required Skills", "Start Date",
                 "End Date", "Location");
 
